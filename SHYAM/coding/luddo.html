@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            height: 800px;
+            width: 800px;
+            margin: 0 auto;
+            
+            
+        }
+        #child1{
+            height: 300px;
+            width: 800px;
+            background-color: aqua;
+            display: flex;
+        }
+        .box1{
+            height: 300px;
+            width: 300px;
+            background-color: red;  
+        } 
+        #v_red{
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        #b1{
+            height: 80px;
+            width: 200px;
+           
+            display: flex;
+        }
+        #a1{
+            height: 60px;
+            width: 60px;
+            background-color: red;
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+     
+        #a2{
+            height: 60px;
+            width: 60px;
+            background-color: red;
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+        #b2{
+            height: 40px;
+            width: 200px;
+            
+        }
+        #b3{
+            height: 80px;
+            width: 200px;
+            display: flex;
+        }
+        #c1{
+            height: 60px;
+            width: 60px;
+            background-color: red;
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        #c2{
+            height: 60px;
+            width: 60px;
+            background-color: red;
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+     
+     
+        .box2{
+            height: 300px;
+            width: 200px;
+            background-color: rgb(243, 243, 243);
+        }
+        .box3{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(10, 211, 57);
+        }
+        
+        #v_green{
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        #d1{
+            height: 80px;
+            width: 200px;
+           
+            display: flex;
+        }
+        #cir1{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(10, 211, 57);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+     
+        #cir2{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(10, 211, 57);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+        #d2{
+            height: 40px;
+            width: 200px;
+          
+            
+        }
+        #d3{
+            height: 80px;
+            width: 200px;
+           
+            display: flex;
+        }
+        #cir5{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(10, 211, 57);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        #cir6{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(10, 211, 57);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+     
+        #child2{
+            height: 200px;
+            width: 800px;
+            background-color: blue;
+            display: flex;
+        }
+        .box4{
+            height: 200px;
+            width: 300px;
+            background-color: rgb(241, 241, 241);
+        }
+        .box5{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(0, 135, 85);
+        }
+        #green{
+            height: 50px;
+            width: 200px;
+            background-color: rgb(59, 185, 16);
+           
+        }
+
+        .box6{
+            height: 200px;
+            width: 300px;
+            background-color: rgb(241, 241, 241);
+        }
+        #child3{
+            height: 300px;
+            width: 800px;
+            background-color: rgb(124, 124, 206);
+            display: flex;
+        }
+        .box7{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(217, 239, 11);
+        }
+        #v_yellow{
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+
+        #e1{
+            height: 80px;
+            width: 200px;
+           
+            display: flex;
+        }
+        #cir7{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(197, 211, 10);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+     
+        #cir8{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(197, 211, 10);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+        #e2{
+            height: 40px;
+            width: 200px;
+          
+            
+        }
+        #e3{
+            height: 80px;
+            width: 200px;
+           
+            display: flex;
+        }
+        #cir9{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(197, 211, 10);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        #cir10{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(197, 211, 10);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+     
+        .box8{
+            height: 300px;
+            width: 200px;
+            background-color: rgb(241, 241, 241);
+        }
+        .box9{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(39, 19, 215);
+        }
+        #v_blue{
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        #f1{
+            height: 80px;
+            width: 200px;
+           
+            display: flex;
+        }
+        #cir11{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(39, 19, 215);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+     
+        #cir12{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(39, 19, 215);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+        #f2{
+            height: 40px;
+            width: 200px;
+          
+            
+        }
+        #f3{
+            height: 80px;
+            width: 200px;
+           
+            display: flex;
+        }
+        #cir13{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(39, 19, 215);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        #cir14{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(39, 19, 215);
+            padding: auto;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+     
+        
+
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="child1">
+            <div class="box1">
+                <div id="v_red">
+                    <div id="b1">
+                        <div id="a1"></div>
+                        <div id="a2"></div> </div>
+                    <div id="b2"></div>
+                    <div id="b3">
+                        <div id="c1"></div>
+                        <div id="c2"></div>
+             </div>
+              </div>
+            </div>
+            <div class="box2"></div>
+            <div class="box3">
+                <div id="v_green">
+                    <div id="d1">
+                        <div id="cir1"></div>
+                        <div id="cir2"></div> </div>
+                        <div id="d2"></div>
+                        <div id="d3">
+                         <div id="cir5"></div>
+                         <div id="cir6"></div>
+                        </div>    
+                </div>
+            </div>
+        </div>
+        <div id="child2">
+            <div class="box4"></div>
+            <div class="box5">
+                <div id="red"></div>
+                <div id="green"></div>
+                <div id="yello"></div>
+                <div id="blue"></div>
+            </div>
+            <div class="box6"></div>
+        </div>
+        <div id="child3">
+            <div class="box7">
+                <div id="v_yellow">
+                    <div id="e1">
+                        <div id="cir7"></div>
+                        <div id="cir8"></div> </div>
+                        <div id="e2"></div>
+                        <div id="e3">
+                         <div id="cir9"></div>
+                         <div id="cir10"></div>
+                        </div>   
+                </div>
+            </div>
+            <div class="box8"></div>
+            <div class="box9">
+                <div id="v_blue">
+                    <div id="f1">
+                        <div id="cir11"></div>
+                        <div id="cir12"></div> </div>
+                        <div id="f2"></div>
+                        <div id="f3">
+                         <div id="cir13"></div>
+                         <div id="cir14"></div>
+                        </div>   
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
